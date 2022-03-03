@@ -18,7 +18,7 @@ MultiMonitorTool.exe /SetPrimary "MONITOR\AOC0CCD\{4d36e96e-e325-11ce-bfc1-08002
 // PC - Monitor - DP 1
 ControlMyMonitor.exe /SetValue "MONITOR\CMI3400\{4d36e96e-e325-11ce-bfc1-08002be10318}\0002" 60 7
 
-ssh tvpham@tripvnb "ControlMyMonitor.exe /SetValue GM34-CW 60 7"
+ControlMyMonitor.exe /SetValue "GM34-CW" 60 7
 
 // PC - Monitor - DP 2
 ControlMyMonitor.exe /SetValue "MONITOR\CMI3400\{4d36e96e-e325-11ce-bfc1-08002be10318}\0002" 60 8
